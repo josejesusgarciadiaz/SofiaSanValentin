@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Sofía ❤️</title>
+    <style>
+        body {
+            background-color: #ffe6e6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+        .carta {
+            background: #fff;
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+        }
+        .corazones {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 30px;
+        }
+        .mensaje {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+        }
+        .carrusel {
+            margin-top: 20px;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .firma {
+            margin-top: 20px;
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carta">
+        <div class="corazones">❤️❤️❤️</div>
+        <h2>Para Sofía</h2>
+        <p class="mensaje">
+            Sofía, desde el primer día que te vi, supe que eras especial. En estos casi dos años juntos, cada momento a tu lado ha sido un regalo, cada risa, cada abrazo, cada mirada. No hay día en que no me sienta afortunado de tenerte en mi vida. Eres mi persona favorita, mi alegría, mi todo.  
+            <br><br>
+            Hoy quisiera preguntarte algo, que espero me digas que sí…  
+            <strong>¿Me harías el honor de ser mi San Valentín este año y todos los años que estén por venir?</strong>  
+        </p>
+
+        <div class="carrusel">
+            <img src="imagen1.jpg" alt="Sofía 1">
+            <img src="imagen2.jpg" alt="Sofía 2">
+            <img src="imagen3.jpg" alt="Ustedes juntos">
+        </div>
+
+        <p class="firma">Con todo mi amor, Tu persona especial ❤️</p>
+    </div>
+
+</body>
+</html>
